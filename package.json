@@ -1,10 +1,10 @@
 {
-  "name": "µSec",
+  "name": "msec",
   "version": "1.0.0",
   "description": "Get the current time in microseconds",
   "author": "KDex",
-  "homepage": "https://github.com/zkxdex/µSec",
-  "repository": "git://github.com/zkxdex/µSec.git",
+  "homepage": "https://github.com/zkxdex/msec",
+  "repository": "git://github.com/zkxdex/msec.git",
   "main": "index.js",
   "licenses": "MIT",
   "keywords": [
