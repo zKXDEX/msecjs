@@ -1,0 +1,36 @@
+{
+  "name": "µSec",
+  "version": "1.0.0",
+  "description": "Get the current time in microseconds",
+  "author": "KDex",
+  "homepage": "https://github.com/zkxdex/µSec",
+  "repository": "git://github.com/zkxdex/µSec.git",
+  "main": "index.js",
+  "licenses": "MIT",
+  "keywords": [
+    "microtime",
+    "microseconds",
+    "gettime"
+  ],
+  "engines": {
+    "node": ">=14.13.0"
+  },
+  "scripts": {
+    "install": "node-gyp-build",
+    "rebuild": "node-gyp rebuild",
+    "test": "node test.js"
+  },
+  "gypfile": true,
+  "dependencies": {
+    "node-addon-api": "^7.0.0",
+    "node-gyp-build": "^4.7.1"
+  },
+  "devDependencies": {
+    "clang-format": "^1.8.0",
+    "node-gyp": "^10.0.1",
+    "prebuildify": "^5.0.1",
+    "prebuildify-ci": "^1.0.5",
+    "prebuildify-cross": "^5.0.0",
+    "standard": "^17.1.0"
+  }
+}
