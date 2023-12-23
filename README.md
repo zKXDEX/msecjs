@@ -1,21 +1,21 @@
-# mSec
+# mSecjs
 
-mSec is a Node.js module providing high-precision timing functions. This module is particularly useful in environments where microsecond-level time measurement is required.
+mSecjs is a Node.js module providing high-precision timing functions. This module is particularly useful in environments where microsecond-level time measurement is required.
 
 ## Installation
 
-You can install mSec:
+You can install mSecjs:
 
 ```bash
-npm install msec
+npm install mSecjs
 
 or 
 
-pnpm install msec
+pnpm install mSecjs
 
 or 
 
-yarn add msec
+yarn add mSecjs
 ```
 
 Then, run the installation script defined in package.json:
@@ -46,27 +46,27 @@ yarn rebuild
 
 ## Usage
 
-Here are some examples of how to use mSec in your project:
+Here are some examples of how to use mSecjs in your project:
 
 ```javascript
-const mSec = require('msec');
+const mSecjs = require('mSecjs');
 
 // Get the current time in microseconds
-let now = mSec.now();
+let now = mSecjs.now();
 console.log(now);
 
 // Get the current time as a double
-let nowDouble = mSec.nowDouble();
+let nowDouble = mSecjs.nowDouble();
 console.log(nowDouble);
 
 // Get the current time as an array [seconds, microseconds]
-let nowStruct = mSec.nowStruct();
+let nowStruct = mSecjs.nowStruct();
 console.log(nowStruct);
 ```
 
 ## API
 
-mSec exposes the following functions:
+mSecjs exposes the following functions:
 
 - `now()`: Returns the current time in microseconds.
 - `nowDouble()`: Returns the current time as a double value.
